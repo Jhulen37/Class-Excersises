@@ -1,0 +1,23 @@
+{
+  "name": "class-excersises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "function test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhulen37/Class-Excersises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jhulen37/Class-Excersises/issues"
+  },
+  "homepage": "https://github.com/Jhulen37/Class-Excersises#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}

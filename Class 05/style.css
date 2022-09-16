@@ -1,0 +1,36 @@
+  .container {
+    text-align: center;
+    background: "url('../mountain.jpg')" no-repeat center/cover;
+    min-height: 100vh;
+    width: 100vw;
+  }
+
+  form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(275px, 50%, 700px);
+    margin: 0 auto;
+  }
+  
+  .link-input {
+    padding: 0.5em 1.25em;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  
+    transition: 300ms ease opacity;
+  }
+
+  
